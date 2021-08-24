@@ -1,0 +1,334 @@
+body {
+  color: #ae7c78;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+}
+.visually-hidden {
+  display: none;
+}
+.header {
+  border-top: 1px solid #ae7c78;
+  border-bottom: 1px solid #ae7c78;
+  margin-top: 18px;
+  width: 100%;
+  height: 64px;
+  display: flex;
+}
+.navigation-list {
+  display: flex;
+}
+.navigation-item {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.intro-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+}
+.intro-title span {
+  font-family: Playfair Display;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+}
+.intro-description {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+.button {
+  background: #d89999;
+  border-radius: 40px;
+  border: none;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.advantages-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.advantages-description {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.delivery {
+  background-image: url("../img/delivery.svg");
+  background-repeat: no-repeat;
+}
+.fresh {
+  background-image: url("../img/fresh.svg");
+  background-repeat: no-repeat;
+}
+.photo {
+  background-image: url("../img/photo.svg");
+  background-repeat: no-repeat;
+}
+.offer-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.offer-name,
+.offer-price {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.offer-description,
+.offer-size {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.button-left,
+.button-right {
+  background-color: #ffffff;
+  border: none;
+}
+.arrow-right {
+  transform: rotateY(180deg);
+}
+.catalog-list {
+  display: flex;
+}
+.catalog-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.catalog-description {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+.catalog-item {
+  width: 387px;
+  height: 442px;
+  border-radius: 10px;
+}
+
+.wedding {
+  background-image: linear-gradient(
+      to right,
+      rgba(174, 124, 120, 0.6),
+      rgba(174, 124, 120, 0.6)
+    ),
+    url("../img/wedding.png");
+  background-repeat: no-repeat;
+}
+
+.peony {
+  background-image: linear-gradient(
+      to right,
+      rgba(174, 124, 120, 0.6),
+      rgba(174, 124, 120, 0.6)
+    ),
+    url("../img/peony.png");
+  background-repeat: no-repeat;
+}
+
+.choice-bouquet {
+  background-image: linear-gradient(
+      to right,
+      rgba(174, 124, 120, 0.6),
+      rgba(174, 124, 120, 0.6)
+    ),
+    url("../img/choice-bouquet.png");
+  background-repeat: no-repeat;
+}
+
+.discount {
+  width: 1200px;
+  height: 391px;
+  background: #ae7c78;
+  display: flex;
+}
+.discount-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.discount-description {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.steps .title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.steps-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+.steps-description {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.choice {
+  background-image: url("../img/choice.svg");
+  background-repeat: no-repeat;
+}
+.details {
+  background-image: url("../img/details.svg");
+  background-repeat: no-repeat;
+}
+
+.pay {
+  background-image: url("../img/pay.svg");
+  background-repeat: no-repeat;
+}
+.news-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.news-description {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+.news {
+  display: flex;
+}
+.feedback-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.feedback-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+.feedback-author {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+.contacts-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+}
+.contacts-item {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.contacts-info {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.footer {
+  width: 1440px;
+  height: 97px;
+  background-color: #ae7c78;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-list {
+  display: flex;
+}
+.footer-item {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}

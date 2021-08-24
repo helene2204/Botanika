@@ -16,7 +16,7 @@
         <img src="img/logo.svg" alt="Логотип" class="header-logo" />
       </a>
       <nav class="navigation-menu">
-        <ul class="naigation-list">
+        <ul class="navigation-list">
           <li class="navigation-item"><a href="#catalog">Каталог</a></li>
           <li class="navigation-item"><a href="#">Доставка и оплата</a></li>
           <li class="navigation-item"><a href="#feedback">Отзывы</a></li>
@@ -32,7 +32,9 @@
 
       <section class="intro">
         <h2 class="intro-title">Авторские букеты <span>в Петербурге</span></h2>
-        <p>Оригинальные свежие букеты с доставкой по всему городу</p>
+        <p class="intro-description">
+          Оригинальные свежие букеты с доставкой по всему городу
+        </p>
         <button class="intro-button button" type="button">
           Смотреть каталог
         </button>
@@ -54,14 +56,14 @@
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
 
-        <div class="advantages-point">
+        <div class="advantages-point delivery">
           <h3 class="advantages-title">Быстрая доставка</h3>
           <p class="advantages-description">
             Можем собрать букет и передать его в доставку всего за час.
           </p>
         </div>
 
-        <div class="advantages-point">
+        <div class="advantages-point fresh">
           <h3 class="advantages-title">Всегда свежие цветы</h3>
           <p class="advantages-description">
             Тщательно следим за состоянием цветов, а опытные флористы отбирают
@@ -69,7 +71,7 @@
           </p>
         </div>
 
-        <div class="advantages-point">
+        <div class="advantages-point photo">
           <h3 class="advantages-title">Отправляем фото цветов</h3>
           <p class="advantages-description">
             Перед доставкой сделаем фотографию букета и отправим вам.
@@ -82,7 +84,7 @@
         <div class="card-description">
           <h3 class="offer-title">Популярные букеты</h3>
           <h4 class="offer-name">Букет «Нежность»</h4>
-          <p class="offer-desc">
+          <p class="offer-description">
             Элегантный букет, который станет отличным подарком на день рождения
             или юбилей.
           </p>
@@ -99,14 +101,14 @@
           height="438"
         />
 
-        <button>
+        <button type="button" class="button-left">
           <img
             src="img/Arrow.svg"
             alt="Стрелка влево"
             class="arrow arrow-left"
           />
         </button>
-        <button>
+        <button type="button" class="button-right">
           <img
             src="img/Arrow.svg"
             alt="Стрелка вправо"
@@ -119,21 +121,21 @@
         <h2 class="visually-hidden">Каталог букетов</h2>
 
         <ul class="catalog-list">
-          <li class="catalog-item">
+          <li class="catalog-item wedding">
             <a href="#">
               <h3 class="catalog-title">Свадебные букеты</h3>
               <p class="catalog-description">Букеты для невест</p>
             </a>
           </li>
 
-          <li class="catalog-item">
+          <li class="catalog-item peony">
             <a href="#">
               <h3 class="catalog-title">Букеты с пионами</h3>
               <p class="catalog-description">Букеты с сезонными пионами</p>
             </a>
           </li>
 
-          <li class="catalog-item">
+          <li class="catalog-item choice-bouquet">
             <a href="#">
               <h3 class="catalog-title">Выбрать букет</h3>
               <p class="catalog-description">Букеты в ассортименте</p>
@@ -143,12 +145,13 @@
       </section>
 
       <section class="discount">
-        <h2 class="discount-title">Скидка 10% на первый заказ</h2>
-        <p class="discount-description">
-          Если заказываете у нас букет впервые — при оформлении заказа введите
-          промокод «Botanika2021» и получите скидку 10%.
-        </p>
-
+        <div>
+          <h2 class="discount-title">Скидка 10% на первый заказ</h2>
+          <p class="discount-description">
+            Если заказываете у нас букет впервые — при оформлении заказа введите
+            промокод «Botanika2021» и получите скидку 10%.
+          </p>
+        </div>
         <img
           src="img/sale-flower.jpg"
           alt="Флорист собирает красивый букет"
@@ -160,70 +163,75 @@
       <section class="steps">
         <h2 class="title">4 шага к идеальному букету</h2>
 
-        <div class="step">
+        <div class="step choice">
           <h3 class="steps-title">Заказ</h3>
           <p class="steps-description">
             Выбирите понравившейся букет из каталога и оформите заказ
           </p>
         </div>
 
-        <div class="step">
+        <div class="step details">
           <h3 class="steps-title">Уточнение деталей</h3>
-          <p class="steps-desc">
+          <p class="steps-description">
             Наш флорист позвонит вам после оформления заказа, чтобы уточнить
             детали
           </p>
         </div>
 
-        <div class="step">
+        <div class="step pay">
           <h3 class="steps-title">Оплата</h3>
-          <p class="steps-desc">
+          <p class="steps-description">
             Оплатить заказ можно онлайн на сайте или при получении
           </p>
         </div>
 
-        <div class="step">
+        <div class="step delivery">
           <h3 class="steps-title">Доставка</h3>
-          <p class="steps-desc">
+          <p class="steps-description">
             Курьер позвонит за час до прибытия и доставит заказ вовремя
           </p>
         </div>
       </section>
 
       <section class="news">
-        <h2 class="news-title">Следите за нашими новостями</h2>
-        <p class="news-desc">
-          Подписывайтесь на наши соцсети и узнавайте о новинках и акциях первым.
-        </p>
-        <ul class="social-icons">
-          <li class="icons">
-            <a href="#"><span class="visually-hidden">Инстаграм</span></a>
-          </li>
-          <li class="icons">
-            <a href="#"><span class="visually-hidden">Фейсбук</span></a>
-          </li>
-          <li class="icons">
-            <a href="#"><span class="visually-hidden">Твиттер</span></a>
-          </li>
-        </ul>
-        <img
-          src="img/news-bouquet-1.jpg"
-          alt="Красивые цветы"
-          width="285"
-          height="220"
-        />
-        <img
-          src="img/news-bouquet-2.jpg"
-          alt="Букет из розовых роз"
-          width="285"
-          height="220"
-        />
-        <img
-          src="img/news-bouquet-3.jpg"
-          alt="Готовый букет в крафтовой бумаге"
-          width="387"
-          height="460"
-        />
+        <div>
+          <h2 class="news-title">Следите за нашими новостями</h2>
+          <p class="news-description">
+            Подписывайтесь на наши соцсети и узнавайте о новинках и акциях
+            первым.
+          </p>
+          <ul class="social-icons">
+            <li class="icons">
+              <a href="#"><span class="visually-hidden">Инстаграм</span></a>
+            </li>
+            <li class="icons">
+              <a href="#"><span class="visually-hidden">Фейсбук</span></a>
+            </li>
+            <li class="icons">
+              <a href="#"><span class="visually-hidden">Твиттер</span></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img
+            src="img/news-bouquet-1.jpg"
+            alt="Красивые цветы"
+            width="285"
+            height="220"
+          />
+          <img
+            src="img/news-bouquet-2.jpg"
+            alt="Букет из розовых роз"
+            width="285"
+            height="220"
+          />
+          <img
+            src="img/news-bouquet-3.jpg"
+            alt="Готовый букет в крафтовой бумаге"
+            width="387"
+            height="460"
+          />
+        </div>
       </section>
 
       <section class="feedback" id="feedback">
