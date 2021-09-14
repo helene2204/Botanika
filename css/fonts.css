@@ -3,6 +3,7 @@
   src: local("Montserrat-Regular"),
     url("../fonts/Montserrat-Regular.woff2") format("woff2"),
     url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
 }
 @font-face {
   font-family: "Montserrat";
@@ -31,4 +32,5 @@
     url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2"),
     url("../fonts/PlayfairDisplay-Italic.woff") format("woff");
   font-weight: 400;
+  font-style: italic;
 }
