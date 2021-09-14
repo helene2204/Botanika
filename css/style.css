@@ -137,6 +137,7 @@ ul {
   margin-right: auto;
   width: 285px;
   height: 80px;
+  cursor: pointer;
 }
 
 .intro-container img:nth-of-type(1) {
